@@ -1,4 +1,4 @@
-\# 🎯 Page 7: Installing and Configuring DVWA (Damn Vulnerable Web Application)
+    \# 🎯 Page 7: Installing and Configuring DVWA (Damn Vulnerable Web Application)
 
 
 
@@ -296,7 +296,7 @@ Create a dedicated user.
 
 ```sql
 
-CREATE USER 'dvwa'@'localhost' IDENTIFIED BY 'Dvwa@123';
+CREATE USER 'dvwa'@'localhost' IDENTIFIED BY '<DVWA_DB_PASSWORD>';
 
 ```
 
@@ -370,7 +370,7 @@ $\_DVWA\['db\_database'] = 'dvwa';
 
 $\_DVWA\['db\_user'] = 'dvwa';
 
-$\_DVWA\['db\_password'] = 'Dvwa@123';
+$\_DVWA\['db\_password'] =  '<DVWA_DB_PASSWORD>';
 
 ```
 
